@@ -1,6 +1,6 @@
 # HTML - CSS - JS (2026)
 
-![LP Screenshot] (images/lp.png)
+![LP Screenshot](images/lp.png)
 
 ## JS
 
