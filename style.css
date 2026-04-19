@@ -217,6 +217,7 @@ footer {
     margin-top: 50px;
     text-align: center;
     padding: 20px;
+    border-radius: 20px 20px 0 0;
     background: rgba(129, 104, 104, 0.6);
     box-shadow: 0 10px 25px rgba(73, 110, 245, 0.258);
 }

@@ -27,7 +27,44 @@
         <button onclick="document.getElementById('lamp').src='https://www.w3schools.com/js/pic_bulbon.gif'">Turn on the light</button>
         <button onclick="document.getElementById('lamp').src='https://www.w3schools.com/js/pic_bulboff.gif'">Turn off the light</button>
     </p>
+
+
+    <h2>Displays</h2>
+    <nav>
+
+        <a href="#innerHTML">innerHTML</a>
+        <a href="#txtContent">textContent</a>
+        <a href="#btnPrompt">windowPrompt</a>
+    </nav>
+    
+    <section>
+        <div>
+            <div id="innerHTML">
+                <h3>InnerHTML</h3>
+                <p id="inner"></p>
+            </div>
+            <div id="textContent" >
+                <h3>Document.write()</h3>
+                <button onclick="document.write('Oi')">Do not click me</button>
+            </div>
+            <div id="btnPrompt">
+                <h3>Window.prompt()</h3>
+                <p></p>
+                <button id="prompt">Click me</button>
+            </div>
+        </div>
+    </section>
    
     <p><a href="../index.html">Voltar</a></p>
+    <script>
+        document.getElementById("inner").innerHTML = "Chenge the HTML content using <b>innerHTML</b>"
+        document.getElementById("prompt").addEventListener("click", () => {
+            const nome = prompt("Your Name? 🔥");
+
+            if (nome) {
+                alert("Welcome " + nome + " 👋");
+  }
+        });
+</script>
 </body>
 </html>

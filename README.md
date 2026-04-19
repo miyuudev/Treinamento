@@ -21,6 +21,7 @@ First impressions
 ## Style Sheet
 
 This project features a retro-inspired UI with a synthwave aesthetic.
+
 🎨 Color Palette
 
 - #ff5c8a
